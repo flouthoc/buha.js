@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Buha.js test</title>
+	<script src="buha.js"></script>
+	<script type="text/javascript">
+		const task1 = done => setTimeout(_ => {console.log('1'); done()}, 5000)
+		const task2 = done => setTimeout(_ => {console.log('secondtask'); done()}, 100)
+
+		const task3 = async (cb) => {
+
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("done!"), 1000)
+  });
+
+  let result = await promise; // wait till the promise resolves (*)
+
+  alert(result); // "done!"
+  cb();
+}
+
+		const buharunner = buha();
+		buharunner.push(()=>{console.log("hello world")}, null, true);
+		buharunner.push(task2);
+		buharunner.push(()=>{console.log("hello worldssd")}, null, true);
+		buharunner.push(task3);
+		buharunner.push(done => setTimeout(_ => {console.log('1'); done()}, 5000));
+
+
+
+	</script>
+</head>
+<body>
+</body>
+</html>

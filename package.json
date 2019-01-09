@@ -1,0 +1,27 @@
+{
+  "name": "buha",
+  "version": "1.0.0",
+  "description": "Browser based Strictly ordered Task Queue for Sync/Async Javascript Functions",
+  "main": "buha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flouthoc/buha.js.git"
+  },
+  "keywords": [
+    "Task",
+    "Queue",
+    "Queue",
+    "Job",
+    "Sync",
+    "Async"
+  ],
+  "author": "flouthoc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flouthoc/buha.js/issues"
+  },
+  "homepage": "https://github.com/flouthoc/buha.js#readme"
+}
