@@ -1,3 +1,9 @@
+/*
+buha.js
+Author: flouthoc (https://github.com/flouthoc) (flouthoc@gmail.com)
+Contributors: 
+*/
+
 function buha(callback){
 
 	var mutex = false;
