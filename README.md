@@ -1,3 +1,4 @@
+![buha.js](https://github.com/flouthoc/buha.js/blob/master/buha.png)
 # buha.js
 Browser based <b>Strictly ordered</b> Task Queue for <b>Sync/Async</b> Javascript Functions
 
