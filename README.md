@@ -2,6 +2,10 @@
 # buha.js
 Browser based <b>Strictly ordered</b> Task Queue for <b>Sync/Async</b> Javascript Functions. https://flouthoc.github.io/buha.js/
 
+## Install
+`npm i buha`
+
+
 ## Usage
 
 Both <b>Sync/Async</b> Jobs can be submitted to buhaRunner with simple push function
